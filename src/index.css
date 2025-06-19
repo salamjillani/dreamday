@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+  .font-sans {
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+  
+  body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #1d395e;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-blush text-navy font-semibold py-3 px-6 rounded-lg hover:bg-pink transition-colors duration-300;
+  }
+  
+  .card {
+    @apply bg-white p-6 rounded-lg shadow-lg text-center hover:bg-blush transition-colors duration-300 transform hover:scale-105;
+  }
+  
+  .section-title {
+    @apply font-playfair text-4xl md:text-5xl text-navy text-center mb-4 font-bold;
+  }
+  
+  .section-subtitle {
+    @apply text-center text-lg md:text-xl text-dark-navy mb-12;
+  }
+}
+
+:root {
+  --navy: #1d395e;
+  --blush: #FEACC6;
+  --dark-navy: #295185;
+  --darkest-navy: #112137;
+  --light-pink: #ffdee9;
+  --pink: #fd7aa3;
+}
