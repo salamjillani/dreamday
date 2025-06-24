@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 const App = () => {
   return (
-    <div className="font-sans text-[#1d395e]">
+    <div className="font-sans text-[#1d395e] overflow-x-hidden">
       <Navbar />
       <div id="hero">
         <HeroSection />
@@ -32,5 +32,6 @@ const App = () => {
     </div>
   );
 };
+
 
 export default App;

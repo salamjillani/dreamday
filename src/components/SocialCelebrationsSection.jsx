@@ -34,7 +34,7 @@ const SocialCelebrationsSection = () => {
             >
               <h3 className="font-serif text-2xl text-[#1d395e] mb-2 font-bold">{pkg.name}</h3>
               <p className="text-[#295185] mb-4">{pkg.description}</p>
-              <p className="text-[#fd7aa3] font-semibold text-xl">{pkg.price}</p>
+              <p className="text-[#ffffff] font-semibold text-xl">{pkg.price}</p>
             </div>
           ))}
         </div>

@@ -32,7 +32,7 @@ const Navbar = () => {
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className=" md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection('hero')}
               className="text-[#295185] hover:text-[#fd7aa3] transition-colors duration-300 font-medium"
