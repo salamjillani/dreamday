@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import WeddingsSection from './components/WeddingsSection';
+import Services from './components/Services';
 import CorporateEventsSection from './components/CorporateEventsSection';
 import SocialCelebrationsSection from './components/SocialCelebrationsSection';
 import BrandLaunchSection from './components/BrandLaunchSection';
@@ -14,6 +15,9 @@ const App = () => {
       <Navbar />
       <div id="hero">
         <HeroSection />
+      </div>
+        <div id="services">
+        <Services />
       </div>
       <div id="weddings">
         <WeddingsSection />
