@@ -40,6 +40,12 @@ const Navbar = () => {
               Home
             </button>
             <button
+              onClick={() => scrollToSection('services')}
+              className="text-[#295185] hover:text-[#fd7aa3] transition-colors duration-300 font-medium"
+            >
+              Services
+            </button>
+            <button
               onClick={() => scrollToSection('weddings')}
               className="text-[#295185] hover:text-[#fd7aa3] transition-colors duration-300 font-medium"
             >
@@ -113,6 +119,12 @@ const Navbar = () => {
                 className="block w-full text-left px-3 py-2 text-[#295185] hover:text-[#fd7aa3] hover:bg-[#ffdee9] rounded-md transition-colors duration-300"
               >
                 Home
+              </button>
+              <button
+                onClick={() => scrollToSection('services')}
+                className="block w-full text-left px-3 py-2 text-[#295185] hover:text-[#fd7aa3] hover:bg-[#ffdee9] rounded-md transition-colors duration-300"
+              >
+                Services
               </button>
               <button
                 onClick={() => scrollToSection('weddings')}
