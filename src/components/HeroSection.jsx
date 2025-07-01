@@ -18,9 +18,6 @@ const HeroSection = () => {
           className="mx-auto w-32 h-32 md:w-40 md:h-40 object-contain drop-shadow-2xl"
         />
       </div>
-      
-      <h1 className="font-serif text-5xl md:text-7xl mb-4 font-bold">DREAMDAY</h1>
-      <p className="text-2xl md:text-3xl mb-8 font-light">Every Detail, Perfectly Planned</p>
       <a
         href="#consultation"
         className="inline-block bg-[#FEACC6] text-[#1d395e] font-semibold py-3 px-6 rounded-lg hover:bg-[#fd7aa3] transition-colors duration-300"
